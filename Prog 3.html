@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+
+        <br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea>
+
+        <br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <br>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
